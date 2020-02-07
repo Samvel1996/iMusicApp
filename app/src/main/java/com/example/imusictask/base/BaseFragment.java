@@ -8,4 +8,5 @@ public abstract class BaseFragment extends Fragment {
         if (getActivity() != null)
             getActivity().getSupportFragmentManager().popBackStack();
     }
+
 }

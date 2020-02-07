@@ -9,6 +9,7 @@
 <!--    toolbar-->
     <color name="color_toolbar_bc">#272727</color>
     <color name="color_toolbar_text">#EFEFEF</color>
+    <color name="color_real_name">#616161</color>
 
     <color name="color_def_bc">#272727</color>
     <color name="color_def_item">#1D1D1D</color>
