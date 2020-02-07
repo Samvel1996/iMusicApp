@@ -22,9 +22,6 @@ public class BaseResponseAdapter extends RecyclerView.Adapter<BaseResponseAdapte
     private OnItemClickListener onItemClickListener;
     private Context context;
 
-    public BaseResponseAdapter(Context context) {
-        this.context = context;
-    }
 
     public void setBaseResponseList(List<BaseResponse> baseResponseList) {
         this.baseResponseList = baseResponseList;

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
-        baseResponseAdapter = new BaseResponseAdapter(this);
+        baseResponseAdapter = new BaseResponseAdapter();
         baseResponseAdapter.setOnItemClickListener(this);
 
         mainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);

@@ -1,5 +1,6 @@
 package com.example.imusictask.entity;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -14,27 +15,35 @@ import java.util.Objects;
 public class BaseResponse implements Serializable {
     @PrimaryKey(autoGenerate = true)
     private int id;
+    @ColumnInfo
     @SerializedName("name")
     @Expose
     private String name;
+    @ColumnInfo
     @SerializedName("realname")
     @Expose
     private String realname;
+    @ColumnInfo
     @SerializedName("team")
     @Expose
     private String team;
+    @ColumnInfo
     @SerializedName("firstappearance")
     @Expose
     private String firstappearance;
+    @ColumnInfo
     @SerializedName("createdby")
     @Expose
     private String createdby;
+    @ColumnInfo
     @SerializedName("publisher")
     @Expose
     private String publisher;
+    @ColumnInfo
     @SerializedName("imageurl")
     @Expose
     private String imageurl;
+    @ColumnInfo
     @SerializedName("bio")
     @Expose
     private String bio;
